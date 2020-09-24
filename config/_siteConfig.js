@@ -10,7 +10,7 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: 'CloudBoost',
-  tagline: 'Cloud Containers and maker topics',
+  tagline: 'Cloud Containers and maker topics ...',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
