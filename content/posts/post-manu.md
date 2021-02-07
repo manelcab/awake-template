@@ -7,7 +7,7 @@ author: MCV
 date: 2020-09-24T17:58:14.312Z
 featureImage: /uploads/markup-hero.jpg
 ---
-Esto es la pera limonera, Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,
+Esto es la pera limonera II, Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,Esto es la pera limonera,
 
 ## The JAM Stack
 
