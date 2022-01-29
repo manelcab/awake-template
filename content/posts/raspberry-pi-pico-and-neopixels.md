@@ -15,6 +15,7 @@ These are the needed components
 | 2   | Raspberry pi pico                                    | 1        | all (lazy loaded) |
 | 3   | for posts filters posts only in supplied category(s) | 2        | \[]               |
 | 4   | the resource to be retrieved and displayed           | 2        | Required          |
+| 5   | the resource to be retrieved and displayed           | 2        | Required          |
 
 There are 2 simple wrappers built around the `ResourceGrid` for easily displaying a categories grid or a posts grid, easily enough they are `CategoriesGrid` and `PostsGrid`.
 
