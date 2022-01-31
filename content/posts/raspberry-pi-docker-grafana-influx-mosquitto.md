@@ -17,7 +17,7 @@ Hi all, in this post we are going to run the following components via [Docker](h
 
 These are the steps:
 
-## 1. Raspberry Pi OS intallation
+## 1. Raspberry Pi OS installation
 
 First of all you need to [install the OS](https://www.raspberrypi.com/documentation/computers/getting-started.html) in the raspberry PI, there are several options you can use: Raspberry PI OS, Ubuntu, NOOBS, OSMC, OpenELEC ... , we'll use Raspberry PI OS (previopusly called Raspbian)
 

@@ -14,7 +14,7 @@ export const fullUrl = () => {
 
 export const getFormattedDate = (date) => {
   const months = [
-    'January',
+    'Januarys',
     'February',
     'March',
     'April',

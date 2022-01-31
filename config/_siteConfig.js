@@ -11,7 +11,7 @@ import theCMS from '../cms/netlify/cms'
 export default {
   siteName: 'CloudBoost',
   tagline: 'Cloud Containers and maker topics ...',
-  featureImage: '/uploads/home-hero.jpg',
+  featureImage: '/uploads/rohit-tandon-9wg5jCEPBsw-unsplash.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
@@ -22,24 +22,24 @@ export default {
       name: 'About',
       link: '/about'
     },
-    {
+    /* {
       name: 'Contact',
       link: '/contact'
-    },
+    }, */
     {
       name: 'Categories',
       link: '/categories'
-    },
-    {
+    }
+    /* {
       name: 'Github Repo',
       link: 'https://github.com/',
       target: '_blank'
-    },
-    {
-      name: 'Awake+ Premium',
-      link: 'https://awake-premium-lp.netlify.com/',
-      target: '_blank'
-    }
+    } /* ,
+     {
+       name: 'Awake+ Premium',
+       link: 'https://awake-premium-lp.netlify.com/',
+       target: '_blank'
+     } */
   ],
   hero: {
     theme: 'dark' // options: mist, light, dark
@@ -67,9 +67,10 @@ export default {
   // siteShortName: 'blog-danielkelly-io' // 'blog-danielkelly-io'
   // Newsletter Subscribe
   newsletter: {
-    on: false,
-    heading: 'Subscribe to Our Newsletter',
-    btnText: 'Subscribe',
+    on: true,
+    // heading: 'By using our website you agree to our use of cookies to deliver a better site experience',
+    heading: 'This site use cookies',
+    btnText: 'Ok',
     // Can be the form action on a mail chimp form, a hubspot form,
     // or any other url you want to post the form data to
     mailchimp: {

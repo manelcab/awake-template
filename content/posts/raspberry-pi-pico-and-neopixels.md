@@ -2,27 +2,21 @@
 title: Raspberry pi pico and neopixels
 subtitle: How to play with neopixels and raspberry pi pico
 category:
-  - Third Party Integrations
+  - PI
 author: lenambac
 date: 2021-08-26T04:27:56.800Z
 featureImage: /uploads/pico_neopixel.png
 ---
+
 These are the needed components
 
-| \#  | Description                                          | Quantity | Default           |
-| --- | ---------------------------------------------------- | -------- | ----------------- |
-| 1   | neopixels                                            | 10       | 3                 |
-| 2   | Raspberry pi pico                                    | 1        | all (lazy loaded) |
-| 3   | for posts filters posts only in supplied category(s) | 2        | \[]               |
-| 4   | the resource to be retrieved and displayed           | 2        | Required          |
-| 5   | the resource to be retrieved and displayed           | 2        | Required          |
+| \#  | Description                                          | Quantity | 
+| --- | ---------------------------------------------------- | -------- | 
+| 1   | neopixels                                            | 10       | 
+| 2   | Raspberry pi pico                                    | 1        | 
+| 3   | aaaaaaaaaaaaaa | 2        | 
+| 4   | bbbbbbbbbbbbbb          | 2        | 
+| 5   | cccccccccccccc           | 2        | 
 
-There are 2 simple wrappers built around the `ResourceGrid` for easily displaying a categories grid or a posts grid, easily enough they are `CategoriesGrid` and `PostsGrid`.
+This post is currently working in progress, willñ be pubished soon .... ;)
 
-## Examples
-
-```abuild
-asdasjhdkjashdkjhsad
-ahsdjkhsad
-
-```

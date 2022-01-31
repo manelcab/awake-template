@@ -16,9 +16,9 @@ This is the [git repo](https://github.com/kibatic/docker-proftpd) of the proftd 
 
 These are the steps:
 
-## 1. Raspberry Pi OS intallation
+## 1. Create user files
 
-First of all creata a new file and include a live with each user you want to configure, where the syntax is username:password, like this:
+First of all create a new file and include a live with each user you want to configure, where the syntax is username:password, like this:
 
 ```
 cat /home/pi/config/ftpd/users.conf
@@ -53,3 +53,15 @@ sudo chmod 755 /mnt/usb0/proftp
 
 Configure your security camera with the raspberry ip address, username and password.
 
+
+## 4. House keeping
+
+If you want to limit the number of files saved on your local host, you can use the following container to delete all the files every 'n' months.
+
+The local directory /mnt/usb0/proftp/ is mounted and deleted all files every 15 days (1296000 seconds)
+
+```
+docker run -d -v /mnt/usb0/proftp/:/mnt/ftpd --restart=unless-stopped alpine /bin/ash -c 'while : ; do df -h /mnt/ftpd/ >> /mnt/ftpd/house_keeping.log ;  echo purging >> /mnt/ftpd/house_keeping.log ; rm -rf /mnt/ftpd/202* ; df -h /mnt/ftpd/ >> /mnt/ftpd/house_keeping.log ; sleep 1296000; done'
+```
+
+A next version of this command it could be a deletion of only files older than 1 month, 2 months, ...
