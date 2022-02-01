@@ -28,7 +28,8 @@ export default {
       html = this.useResponsiveImages(html)
       html = this.wrapTable(html)
       html = html.replace(/<table>/g, '<table class="table is-striped">')
-
+      html = html.replace(/<a href="https:\/\//g, '_kko_') // En una solo linea (por larga?) da error :()
+      html = html.replace(/_kko_/g, '<a target="_blank" href="https://')
       return `<div class="content">${html}</div>`
     }
   },
