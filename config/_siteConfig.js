@@ -9,8 +9,8 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'CloudBoost',
-  tagline: 'Cloud Containers and maker topics ...',
+  siteName: 'AgileBit',
+  tagline: 'Electronics, 3D printing, containers and amazing maker topics ...',
   featureImage: '/uploads/rohit-tandon-9wg5jCEPBsw-unsplash.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {

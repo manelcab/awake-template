@@ -1,5 +1,5 @@
 ---
 name: 3D Printing
-image: /uploads/print3d.png
+image: /uploads/3Dprint.jpg
 description: 3D printing
 ---

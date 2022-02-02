@@ -1,5 +1,5 @@
 ---
 name: PI
-image: /uploads/print3d.png
+image: /uploads/pizero.jpg
 description: Raspberry PI
 ---

@@ -3,9 +3,9 @@ title: Artillery tips
 subtitle: Tips about artillegy genius 3D printer
 category:
   - 3D Printing
-author: Daniel Kelly
+author: lenambac
 date: 2019-08-01T03:49:49.295Z
-featureImage: /uploads/mailchimp.jpg
+featureImage: /uploads/tree3d.jpg
 ---
 
 You've bought a 3D printer, you managed to mount it and now you are discovering the first steps, tips and tricks.
@@ -14,9 +14,4 @@ I share with you some of the references and experiences with [Artillery Genius 3
 
 ![Genius](/uploads/artillery-genius.jpg)
 
-
-# 1. 
-
-# 2. 
-
-# 3. 
+This post will come soon ;)
